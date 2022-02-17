@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:ital,wght@0,100;0,300;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    background-color: rgb(209, 200, 200);
+    
+    
+   
+}
+nav{
+    
+    background-color: #333333;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+li{
+    display: inline-block;
+    padding-right: 25px;
+    margin-bottom: 30px;
+    
+    
+}
+nav ul li a{
+    color: #F5F5F7;
+}
+.article{
+background-color: white;
+margin-top: 10px;
+width: 60%;
+margin: auto;
+font-family: 'Source Sans Pro', sans-serif;
+box-shadow: 3px 5px 5px 5px #888888;
+}
+
+header{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+section{
+    width: 65%;
+    margin: auto;
+}
+h4{
+    padding-top: 20px;
+}
+.tribute .small{
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+hr{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+a{text-decoration:none;}
+
+.close{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.close .date{
+    padding-bottom: 10px;
+}
+.close p{
+    line-height: 20px;
+}
+#closing{
+    margin-top: 30px;
+
+
+}
