@@ -3,10 +3,13 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container{
-    background-color: rgb(209, 200, 200);
+    background-color: #eee;
+    border: 2px;
+    padding-bottom: 40px;
     
     
    
@@ -15,19 +18,24 @@ nav{
     
     background-color: #333333;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+nav ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
 li{
     display: inline-block;
     padding-right: 25px;
-    margin-bottom: 30px;
+    /* margin-bottom: 10px; */
+    
     
     
 }
 nav ul li a{
-    color: #F5F5F7;
+    color: #eee;
 }
 .article{
 background-color: white;
@@ -35,7 +43,8 @@ margin-top: 10px;
 width: 60%;
 margin: auto;
 font-family: 'Source Sans Pro', sans-serif;
-box-shadow: 3px 5px 5px 5px #888888;
+box-shadow: 3px 5px 5px 1px #888888;
+
 }
 
 header{
@@ -45,10 +54,11 @@ header{
     padding-bottom: 50px;
     padding-top: 60px;
     margin-top: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    /* margin-left: 10px;
+    margin-right: 10px; */
 }
 section{
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
 h4{
@@ -83,4 +93,7 @@ a{text-decoration:none;}
     margin-top: 30px;
 
 
+}
+#mail{
+    color: rgb(92, 207, 207);
 }
